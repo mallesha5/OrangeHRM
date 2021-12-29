@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20474" started-at="2021-12-21T14:05:46 IST" finished-at="2021-12-21T14:06:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20474" started-at="2021-12-21T14:05:46 IST" finished-at="2021-12-21T14:06:07 IST">
+      <class name="orange.HRM.TestCases.VerifyOrangeHRMLogin">
+        <test-method status="PASS" signature="VerifyValidLogin()[pri:0, instance:orange.HRM.TestCases.VerifyOrangeHRMLogin@4b1c1ea0]" name="VerifyValidLogin" duration-ms="20433" started-at="2021-12-21T14:05:46 IST" finished-at="2021-12-21T14:06:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin -->
+      </class> <!-- orange.HRM.TestCases.VerifyOrangeHRMLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
