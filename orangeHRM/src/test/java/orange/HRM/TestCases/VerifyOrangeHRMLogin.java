@@ -21,7 +21,7 @@ public class VerifyOrangeHRMLogin
 	@Test
 	public void VerifyValidLogin()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\W10-Dell\\Documents\\softwares\\Selenium\\new\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mallesh.appaiah\\Documents\\softwares\\selenium\\chromedriver_win32 (2)\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public class VerifyOrangeHRMLogin
 		login.loginToOrangeHRM("Admin","admin123");
 	
 		
-		driver.findElement(By.id("welcome")).click();
+		driver.findElement(By.className("oxd-userdropdown-name")).click();
 		driver.findElement(By.linkText("Logout")).click();
 		System.out.println(driver.getCurrentUrl());
 		
